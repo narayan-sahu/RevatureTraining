@@ -1,0 +1,64 @@
+what is sql injection?how to solve it.
+difference between inner join and intersect?
+life cycle of junit
+types of assertion
+
+Ass1
+Perform CURD using prepared Statement
+
+Ass2
+use callable statement to execute stored procedure written yesterday
+
+Ass3
+use a java code to call stored function that you have written today
+
+Ass4
+Write stored procedure,function,trigger
+
+Ass5
+Have a team meeting
+
+Ass6
+Make sure you have created database design
+
+Ass7
+Trello Board Should be Updated.
+
+Ass8
+Do the coding challenege
+
+Ass9
+Complete the quiz
+
+Ass10
+prepare for one on one and QC
+
+
+drop trigger employee_update_audit;
+
+create trigger employee_update_audit BEFORE update on employees
+for each row 
+insert into employee_audit
+set action="Update",
+employeeNumber=OLD.employeeNumber,
+OldLastName=Old.lastName,
+NewLastName=NEW.lastName,
+changedat=NOW();
+
+update employees
+set lastName="LON"
+where employeeNumber=1002;
+
+create trigger employee_delete_audit before delete on customers
+for each row
+insert into employee_audit
+set action="delete",
+employeeNumber=employeeNumber,
+changedat=now();
+
+delete from customers where customerNumber=103;
+
+
+
+
+
