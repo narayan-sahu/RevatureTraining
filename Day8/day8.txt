@@ -1,0 +1,29 @@
+i have an entity which is student having id,name,and courseId;
+I do have another entity having courseId,courseName;
+
+
+Entity ,attribute and relations can be represent by three models :
+Assignment1-Research on three model conceptual,logical,physical -RDBMS
+
+
+what is dilects?e.g people from maharashtra speak marathi but still there are differect words or tone
+-same thing in different way.
+e.g -varchar or text datatype
+
+
+sublanguages in sql:
+-ddl
+-dml
+-tcl
+-dql
+-dcl
+
+What is integrity?
+
+1NF-telephone number
+2NF-pincode and city
+3NF-EMPID,EMPNAME,PINCODE,EMPSTATE,CITY
+
+ACID PROPERTIES
+
+what is data multipliticy
