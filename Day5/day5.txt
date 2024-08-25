@@ -1,0 +1,42 @@
+Difference between scrum and kanban
+
+  <properties>
+  	<maven.compiler.release>21</maven.compiler.release>
+  </properties>
+  
+  
+Different Maven Build Life Cycle
+
+BufferReader -Why this
+
+what is serilization
+
+Logback architecture
+Logging Levels:
+	-Trace
+	-Info
+	-Debug
+	-Wran
+	-Error
+
+Rooling File Append
+Application should do file based logging and once 
+the size of file has crossed the threshold 
+it should create new file.
+
+
+What are the 4 pillars of OOP? Explain each one.
+What are the access modifiers in Java? Explain them
+What is the difference between method overloading and overriding?
+Difference between extends and implements?
+What is the difference between an abstract class and an interface?
+What are the implicit modifiers for interface variables / methods?
+Can you overload / override a main method? static method? a private method? a default method? a protected method?
+ 
+What is base class of all exceptions?
+Difference between checked and unchecked exceptions?
+What are the different ways of handling checked exceptions?
+What is try-with-resources? What interface must the resource implement to use this feature?
+What is the difference between final, .finalize(), and finally?
+throw vs throws vs Throwable ?
+Multi-catch block - can you catch more than one exception in a single catch block?
