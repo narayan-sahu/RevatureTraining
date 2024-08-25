@@ -1,0 +1,7 @@
+Servlet 
+
+Service Layer -Service IMPL
+
+DAO Layer - DAO IMPL
+
+Go through mocking framework
