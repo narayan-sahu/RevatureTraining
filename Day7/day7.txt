@@ -1,0 +1,14 @@
+what is availablity zone and regions?
+
+collection of multiple computing resource called as datacenter.
+collection of 2 to 3 datacenter makes avability zone
+
+collection of multiple availability zone is called regin.it is an geographic area
+The locations that are isolated from each other but close enough to have low-latency connections with each other are known as availability zones.
+AZs represent parts of regions, and each AZ includes one or more data center.
+
+
+In cloud computing, an availability zone (AZ) is a group of data centers within
+ a region, which is a geographic area. AZs are isolated locations within a region,
+ each region has at least three AZs. AZs are connected by low-latency links to 
+ provide fault tolerance and replication.
