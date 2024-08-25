@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e2e2e2, #ffffff); 
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.profile-picture {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.bio {
+    text-align: center;
+}
+.bio p {
+    font-size: 18px;
+    text-align: justify;
+}
+.hobbies {
+    margin-top: 30px;
+}
+.hobbies h2 {
+    /* text-align: center; */
+    color: #555;
+}
+/* .hobbies ol {
+    text-align: center;
+} */
+.hobbies li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.certifications {
+    margin-top: 30px;
+}
+
+.certifications h2 {
+    /* text-align: center; */
+    color: #555;
+}
+
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.certifications a {
+    color: #1a73e8; /* Customize the link color as needed */
+    text-decoration: none;
+}
+
+.certifications a:hover {
+    text-decoration: underline;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.education h2 {
+    text-align: center;
+    color: #555;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.education th, .education td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.education th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.education tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.education tr:hover {
+    background-color: #eaeaea;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills h2 {
+    /* text-align: center; */
+    color: #555;
+}
+
+.skills ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.skills li {
+    margin: 10px 0;
+}
+
+.contact {
+    margin-top: 30px;
+    /* padding: 20px; */
+    /* background: #f9f9f9; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.contact h2 {
+    /* text-align: center; */
+    color: #555;
+    /* margin-bottom: 20px; */
+}
+
+.contact ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.contact li {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #1a73e8; /* Customize the link color as needed */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

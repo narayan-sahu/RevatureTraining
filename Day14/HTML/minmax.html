@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form with Min and Max</title>
+</head>
+<body>
+    <h1>Product Order Form</h1>
+    <form action="/submit" method="post">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+        <small>Min: 1, Max: 100</small><br><br>
+
+        <label for="orderDate">Order Date:</label>
+        <input type="date" id="orderDate" name="orderDate" min="2024-01-01" max="2024-12-31" required>
+        <small>Range: 2024-01-01 to 2024-12-31</small><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
