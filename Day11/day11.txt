@@ -1,0 +1,25 @@
+Day11
+
+create a function interface and create lambda function for following
+
+-Take 3 inputs 1-String and 2-Numbers
+and perform the mathematical operations of addition,substration,division and multiplication
+and return result.
+
+
+write a program to create a list of name of your friends and display them.
+
+from the name of frnds stating with 'a'
+
+Ass-
+write a mini application to simulate stream api for this use employee object having id,name
+and salary 
+application should filter out employees who have salary more than 10000.
+10000-Take input
+
+Every employee gets a salary increment of 7% and the details of employee should be 
+stored in new employee List object 
+
+java stream 
+java lambda
+java optional
