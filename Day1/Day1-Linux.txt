@@ -1,0 +1,24 @@
+1) Architecture of Linux : Hardware,Kernal,Shell,Application,Utility
+	-Explain them.
+2) What are different distrubutions in linux.
+	-Kernal reamins the same just modifies application and utilities.-Ubuntu,debian,fedora
+	-Please Give real time example good one.
+3) List out some of directoy commands of linux.
+	-cd,pwd,etc
+4) List of some of file handling commands.
+	-rm,touch,cp,mv,etc
+5) List out some of filter commands.
+	-grep
+	
+	
+-Scripting files are saving with .sh
+
+What is MVC?
+
+What is Git?
+What is Staging Area?
+What is Branch?
+What are Merge Conflits?
+What is Pull Request?
+What is git ignore and why we need it?
+Clone vs Fork
