@@ -1,0 +1,33 @@
+Pillars :
+	Major:
+		-Modularality
+		-Encapsulation
+		-Abstraction
+		-Inheritance
+	Minor:
+		-Polymorphism
+		-Multi-Threading Environment
+
+Abstract Class: Class which you can instinasiate
+
+
+Create a java application to simulate the employee management salary system
+	There are two types of employees:
+		-Contractual Employee
+		-Salary Employee
+		
+		For Salary Employee the salary is calculated based on number of day present
+		For contructal employee salary is calculated based on number of hour work
+		
+		The contructal employee does not get any company benifits
+		
+
+Customer is always gentral neutral.
+
+jar,war,ear:Enterprise Archive
+
+
+what is waterfall model,advantages and disadvantages.
+what is sdlc
+what are agile manifesto principle
+what is agile
