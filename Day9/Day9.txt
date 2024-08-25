@@ -1,0 +1,124 @@
+difference between between and in 
+between is range and in specifies numbers.
+
+multiplicity sql
+
+when will you use left join and right join give an example real life
+
+what do you understand by aggregate funcation and scalar function.
+
+what do we understand by drop,delete and truncate
+
+
+
+CODE-
+select contactFirstName,contactLastName from customers
+ order by contactLastName;
+
+select contactFirstName,contactLastName from customers
+ order by contactLastName DESC ,contactFirstName ASC;
+
+select
+customerName,contactLastName,
+contactFirstName, 
+phone, 
+addressLine1 from customers
+order by contactLastName;
+
+create view view_customer as 
+select
+customerName,contactLastName,
+contactFirstName, 
+phone, 
+addressLine1 from customers
+order by contactLastName;
+
+select * from view_customer;
+
+create index idx_phone on customers(phone);
+
+
+DELIMITER $$
+create procedure getCustomer()
+begin
+select
+customerName,contactLastName,
+contactFirstName, 
+phone, 
+addressLine1 from customers
+order by contactLastName;
+end $$
+DELIMITER ;
+
+call getCustomer();
+
+drop procedure getCustomer;
+
+
+delimiter // 
+create procedure getOfficeByCountry(in CountryName varchar(255))
+Begin
+select * from offices where country=CountryName;
+end //
+
+delimiter ;
+
+call getOfficeByCountry('USA');
+
+
+delimiter // 
+create procedure GetOrderCount(in orderStatus varchar(255),
+out total int)
+begin
+select count(orderNumber) into total from orders
+where status=orderStatus;
+end //
+
+delimiter ;
+
+call GetOrderCount('Shipped',@total);
+select @total;
+
+
+
+delimiter //
+create procedure setCounter(inout counter int,in inc int)
+begin
+set counter=counter+inc;
+end //
+
+delimiter ;
+
+set @counter=1;
+call setCounter(@counter,1);
+SELECT @counter;
+
+
+what SQL is. What are some SQL databases?
+What is ERD 
+What are the 5 sublanguages of SQL? Which commands correspond to them?
+What is the difference between DELETE, DROP, and TRUNCATE commands?
+What are some SQL clauses you can use with SELECT statements?
+What is the difference between WHERE and HAVING?
+Explain what the ORDER BY and GROUP BY clauses do
+Explain the concept of relational integrity
+List the integrity constraints
+Define the word “schema”
+What is a candidate key? What about a surrogate key?
+What conditions lead to orphan records?
+What are some SQL data types?
+What is normalization? What are the levels?
+What are the properties a transaction must follow?
+Explain the different isolation levels. What read phenomena do each prevent?
+What is the difference between joins and set operators?
+What are the types of joins? Explain the differences.
+Explain the difference between UNION, UNION ALL, and INTERSECT
+What is a cascade delete?
+What is the purpose of a view? What about an index?
+What’s the difference between a clustered and non-clustered index?
+What is a trigger? Give the syntax for creating a trigger.
+How would you setup a primary key that automatically increments with every INSERT statement?
+What is the difference between scalar and aggregate functions? Give examples of each
+What are stored Procedure
+Explain the parameters types in StoredProcedure (IN,OUT,INOUT)
+difference between stored procedure and stored function.
