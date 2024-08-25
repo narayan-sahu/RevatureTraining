@@ -1,0 +1,28 @@
+1. Write a program to calculate the area and perimeter of the rectangle. Input Length and breadth using command line arguments.
+
+2. Write a program to calculate the perimeter of a triangle. Input the sides of triangle using command Line arguments.
+
+3. Write a program to add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+4. Input the marks of Robert in three subjects using Scanner (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+5. Suppose the values of variables 'a' and 'b' are 6 and 8 respecrtively, write two programs to swap the values of the two variables.
+A - first program by using a third variable
+B - second program without using any third variable
+
+6. Write a program to convert Fahrenheit into Celsius. Input the value using scanner.
+
+7. The total number of students in a class are 90 out of which 45 are boys. If 50% of the total students secured grade 'A' out of which 20 are boys, then write a program to calculate the total number of girls getting grade 'A'.
+
+8. Write a program to calculate the sum of the first and the second last digit of a 5 digit.
+E.g.- NUMBER : 12345        OUTPUT : 1+4=5 
+Input the number using scanner.
+
+9. Write a program to calculate the sum of the digits of a 3-digit number.
+Number : 132        Output : 6
+Input the number using scanner.
+
+10. Write a program to reverse a 3-digit number. 
+E.g.-Number : 132        Output : 231
+Input the number using scanner.
+

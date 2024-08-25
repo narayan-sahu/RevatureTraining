@@ -1,0 +1,91 @@
+1) There are three input stream :
+	-input
+	-output
+	-error 
+	
+2) What is System.out.println() what is out
+
+3) can we override public static void main();
+
+4) what is jre,jvm,jdk
+
+5) is java really platform independent : it executes on its own platform for different os there are different jdk
+
+6) What are Wrapper Classes?
+	-Boxing
+
+7)Automatic-Behind the scene
+
+8) how to call garbage collector in java? System.gc() it request java to call garbage collector so it depends on garbage collector whether it want to run or not
+
+9)what is immutabaility?
+	-String
+	-StringBuffer
+	-StringBuilder
+	
+10) diff-StringBuffer
+	-StringBuilder
+	
+11) Syncronization Example-Traffic Signal Only one side at a time is allowed.
+
+12) public static void main(String ...args) { : this is also correct and working
+
+13)equal and hashcode
+
+14)Use of super keyword
+
+[12:06 PM] Jasdhir Singh
+What is Java? / Why Java?
+
+What is JRE / JDK / JVM?
+
+What is an object / class?
+
+How would you compile and execute a Java program?
+
+What is the main method signature? How does the String array parameter get populated?
+
+What is the root class from which every class extends?
+
+What methods are available in the Object class?
+
+If two objects are equal, do they have the same hashcode? If not equal?
+
+What are the primitive data types in Java?
+
+What are the default values for all data types in Java?
+
+What is the difference between String,StringBuilder, andStringBuffer?
+
+What are annotations?
+
+How would you clone an object?
+
+Where are Strings stored?
+
+What is a POJO? What is a bean?
+
+How can you force garbage collection in Java?
+
+What is the difference between == and .equals() ?
+
+Why are strings immutable in Java?
+
+What are the non-access modifiers in Java?
+
+What is the difference between static and final variables?
+
+What data types are supported in switch statements?
+
+How to pass multiple values with a single parameter into a method?
+
+What are enumerations (enums)?
+
+What is the first line of constructor?
+
+How would you make an immutable object?
+
+What is static block?
+
+Is Java pass-by-value or pass-by-reference?
+ 
