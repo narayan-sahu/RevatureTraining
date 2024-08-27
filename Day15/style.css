@@ -1,0 +1,8 @@
+h1{
+			color: blue; font-family: Arial, sans-serif; text-align: center;
+		}
+		
+		button{
+		background-color: green; color: white; padding: 10px 20px; border: none; cursor: pointer;
+		
+		}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <style>
+        /* Element Selector: applies to all <div> elements */
+        div {
+            border: 2px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        /* ID Selector: applies to the element with id="unique-element" */
+        #unique-element {
+            background-color: lightblue;
+            font-size: 20px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* Class Selector: applies to elements with class="special-text" */
+        .special-text {
+            color: darkred;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        /* Universal Selector: applies to all elements */
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Attribute Selector: applies to <a> elements with a "href" attribute */
+        a[href] {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Additional styles for links that open in a new tab */
+        a[target="_blank"] {
+            color: purple;
+            border-bottom: 2px dotted purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- ID Selector -->
+    <div id="unique-element">
+        This is a unique element styled using an ID Selector.
+    </div>
+
+    <!-- Element Selector -->
+    <div>
+        This is a regular div styled using an Element Selector.
+    </div>
+
+    <!-- Class Selector -->
+    <p class="special-text">This paragraph has special text, styled using a Class Selector.</p>
+
+    <!-- Universal Selector -->
+    <p>This paragraph inherits the font family set by the Universal Selector.</p>
+
+    <!-- Attribute Selector -->
+    <p>Check out this <a href="https://www.example.com">link</a> styled using an Attribute Selector.</p>
+
+    <!-- Attribute Selector with additional condition -->
+    <p>Visit <a href="https://www.example.com" target="_blank">this link</a> which opens in a new tab, with additional styling applied.</p>
+</body>
+</html>
