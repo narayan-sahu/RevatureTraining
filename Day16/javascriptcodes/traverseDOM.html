@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traversal Example</title>
+</head>
+
+<body>
+    <!-- Example 1: Working with parent nodes -->
+    <div id="main">
+        <p id="para">This is a note!</p>
+    </div>
+
+    <script>
+        let elmt = document.querySelector('#para');
+        document.write("Parent of the paragraph: " + elmt.parentNode.tagName + "<br>"); // Outputs: DIV
+    </script>
+
+    <!-- Example 2: Working with child nodes -->
+    <div id="myDiv">
+        <p>This is a paragraph - first child</p>
+        <div>this is a div element - last child</div> 
+    </div>
+    
+    <script>
+        let myDiv = document.querySelector('#myDiv');
+        document.write("<br>Child nodes of div element:<br>");
+        for (let i = 0; i < myDiv.childNodes.length; i++) {
+            document.write(myDiv.childNodes[i].nodeName + "<br>");
+        }
+
+        document.write("<br>First child of div element: " + myDiv.firstChild.nodeName + "<br>"); 
+        document.write("Last child of div element: " + myDiv.lastChild.nodeName + "<br>");
+    </script>
+
+    <!-- Example 3: Working with sibling nodes -->
+    <ul>
+        <li>list item 1</li>
+        <li class="list">list item 2</li>
+        <li>list item 3</li>
+    </ul>
+    
+    <script>             
+        const secondListItem = document.querySelector('.list');       
+        document.write("<br>Previous sibling of second list item: " + secondListItem.previousElementSibling.textContent + "<br>");  // Outputs: "list item 1"
+        document.write("Next sibling of second list item: " + secondListItem.nextElementSibling.textContent + "<br>");   // Outputs: "list item 3"
+    </script>
+</body>
+
+</html>

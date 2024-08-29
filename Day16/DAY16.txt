@@ -1,0 +1,12 @@
+write a webpage with 2 text boxes and one label and 4 different button for addition ,sub and mul and div add it in total 
+
+HOSITING
+LEXICAL SCOPE
+CLOSURE
+
+Bubbling
+Capturing
+
+write a javascript code to create to do list having a text box and append that to list
+
+you should have 4 pararagh and 2 dropdown and that drop down contain 4 colours when select colour from 1st dropdown it should change background of paragarh and 2nd dropdown colour will change foreground of paragraph

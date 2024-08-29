@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM01</title>
+</head>
+<body>
+    <h2 class="one">This is one</h2>
+    <h2>This is two</h2>
+    <h2>This is three</h2>
+
+    <script>
+        // Correctly selecting the heading with class "one"
+        var heading = document.getElementsByClassName("one")[0]; // Class "one" is used for the first <h2>
+        heading.innerHTML="This is one --1"
+        // Correctly selecting the second <h2> element
+        var headings = document.getElementsByTagName("h2"); // Now using getElementsByTagName to access all <h2> tags
+        var sometext = headings[1].innerHTML; // Accessing the second <h2>
+        
+        // Updating the innerHTML of the second <h2>
+        headings[1].innerHTML = sometext + ":2";
+    </script>
+</body>
+</html>
